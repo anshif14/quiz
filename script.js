@@ -77,7 +77,9 @@ function getSelected() {
     return answer
 }
 function view() {
-    quiz.innerHTML='<p style= padding:20px; font-size:1.2rem; margin:1rem 0; text-align:center; color:green;>1.d-javascript <br> 2.b-cascading stylesheet<br>3.a- hypertext markup language <br> 4.b-1995</p>'
+    quiz.innerHTML='<p style= padding:20px; font-size:1.2rem; margin:1rem 0; text-align:center; color:green;>1.d-javascript <br> 2.b-cascading stylesheet<br>3.a- hypertext markup language <br> 4.b-1995</p>'+
+   
+    '<br><br><button onclick="location.reload()">Reload</button>'
     
 }
 
